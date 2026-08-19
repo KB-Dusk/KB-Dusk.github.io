@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KB Dusk | Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-logo">&lt;KB Dusk /&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#about">about</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-greeting">// hello world</p>
+            <h1 class="hero-title">I'm <span class="gradient-text">KB Dusk</span></h1>
+            <p class="hero-subtitle">Freelance Developer & Sound Designer</p>
+            <p class="hero-description">I build Discord bots, APIs and web experiences using Python, SQL and JavaScript.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">view my work</a>
+                <a href="#contact" class="btn btn-secondary">get in touch</a>
+            </div>
+        </div>
+        <div class="hero-code">
+            <div class="code-window">
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="code-title">kb_dusk.py</span>
+                </div>
+                <div class="code-body">
+                    <p><span class="code-keyword">class</span> <span class="code-class">KBDusk</span>:</p>
+                    <p>&nbsp;&nbsp;<span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;self.name = <span class="code-string">"KB Dusk"</span></p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;self.role = <span class="code-string">"Developer"</span></p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;self.skills = [</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Python"</span>,</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"SQL"</span>,</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"JavaScript"</span>,</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;]</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;self.available = <span class="code-keyword">True</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">// about_me</h2>
+            <div class="about-content">
+                <p>I'm a freelance developer based in the UK, specialising in Python development, Discord bots and REST APIs. I also do sound design on the side using BandLab and Audacity.</p>
+                <p>Currently building my portfolio and open to freelance projects. If you need a Discord bot, automation script or API built — let's talk.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">// skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-icon">🐍</span>
+                    <h3>Python</h3>
+                    <p>Discord bots, APIs, automation scripts</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🗄️</span>
+                    <h3>SQL</h3>
+                    <p>SQLite, database design, queries</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🌐</span>
+                    <h3>Flask</h3>
+                    <p>REST APIs, routing, JSON responses</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🤖</span>
+                    <h3>Discord.py</h3>
+                    <p>Moderation bots, economy bots, cogs</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🎵</span>
+                    <h3>Sound Design</h3>
+                    <p>BandLab, Audacity, Soundtrap, FL Studios</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">💻</span>
+                    <h3>JavaScript</h3>
+                    <p>Web development, DOM manipulation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">// projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">🤖</span>
+                        <div class="project-links">
+                            <a href="https://github.com/KB-Dusk/dusk-discord-bots" target="_blank">GitHub →</a>
+                        </div>
+                    </div>
+                    <h3>Dusk Discord Bots</h3>
+                    <p>A suite of Discord bots including a moderation bot and economy bot with SQLite persistence. Built with a clean cog-based class structure.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">discord.py</span>
+                        <span class="tag">SQLite</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">🎵</span>
+                        <div class="project-links">
+                            <a href="https://github.com/KB-Dusk/music-api" target="_blank">GitHub →</a>
+                        </div>
+                    </div>
+                    <h3>Music API</h3>
+                    <p>A REST API that serves music data including artists, albums and songs. Supports full CRUD operations via HTTP endpoints.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Flask</span>
+                        <span class="tag">SQLite</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">// contact</h2>
+            <p class="contact-desc">Open for freelance work. Reach out on Discord or GitHub.</p>
+            <div class="contact-links">
+                <a href="https://github.com/KB-Dusk" target="_blank" class="contact-btn">GitHub</a>
+                <a href="#" class="contact-btn">Discord: KB DUSK</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>built by <span class="gradient-text">KB Dusk</span> &lt;/&gt;</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
